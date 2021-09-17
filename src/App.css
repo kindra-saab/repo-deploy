@@ -22,6 +22,7 @@
   width:35%;
   margin-top: 50px;
   margin-bottom: 50px;
+  align-self: center;
 }
 
 .flex-item-download2{
@@ -175,7 +176,7 @@ hr{
  }
 
  .logo{
-width: 170px;
+width: 200px;
 
  }
 

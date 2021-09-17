@@ -6,7 +6,7 @@ function CityInput(props) {
     
 
     const {City}=props;
-    // console.log({City});
+    // console.log({City}); 
 
     const[state,setState]=useState({
         val:'',
@@ -40,14 +40,14 @@ function CityInput(props) {
         
         <p className="heading-city">POPULAR CITIES IN INDIA</p>
         <div className="gridCity">
-        {City.map((link,index) => {
+        {City.map((link,index) => 
 
             // {console.log({index})};
                         
-                        return (
+                         (
                             <p key={index} className={{index}.index%2!==0?'light':'dark'}><a href={'https://www.swiggy.com/'+link.city}>{link.city}</a></p>
                         )
-                    })}
+                    )}
         </div>
        
         </div>

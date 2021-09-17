@@ -13,11 +13,11 @@ function NavLinks(props) {
 
 
 
-                    {links.map((link,index) => {
-                        return (
+                    {links.map((link,index) => 
+                         (
                             <li key={index}><a  href={link.url}>{link.text}</a></li>
                         )
-                    })}
+                    )}
 
                 </ul>
          </nav>
