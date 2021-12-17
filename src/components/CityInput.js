@@ -1,5 +1,5 @@
-import React from 'react';
-import { useState } from 'react/cjs/react.development';
+import React ,{useState} from 'react';
+// import { useState } from 'react/cjs/react.development';
 
 function CityInput(props) {
 
@@ -30,12 +30,12 @@ function CityInput(props) {
         <div className="left-part left-part-input">
              
             {state.type===false && state.val===''? (<div style={{backgroundColor:'#e66060',color:'white',marginTop:'0',fontSize:'20px'}}>
-            <p style={{marginBottom:'10px'}}>Enter Your City !!</p>
+            <p style={{marginBottom:'5px'}}>Enter Your City !!</p>
         </div>):(<div></div>)}
 
         <div className=" left-part-cityinput">
             <input type="text" placeholder="Enter Your Delivery Location"  onChange={(event)=>{setState({val:event.target.value})}}/>
-        <button type="button" onClick={reroute}>FIND FOOD</button>
+        <button type="button" onClick={reroute}><p className="food">FIND FOOD</p></button>
         </div>
         
         <p className="heading-city">POPULAR CITIES IN INDIA</p>

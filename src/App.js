@@ -8,12 +8,14 @@ import FooterSecond from './components/FooterSecond';
 import Features from './components/Features';
 import Header from './components/Header';
 import LastFooter from './components/LastFooter';
+// import Dynamictext from './components/Dynamictext';
 
 
 function App() {
   return (
     <div className="App">
       <Header></Header>
+      {/* <Dynamictext></Dynamictext> */}
       <Features></Features>
       <Downloads></Downloads>
       <Footer></Footer>

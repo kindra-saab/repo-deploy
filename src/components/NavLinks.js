@@ -1,8 +1,8 @@
-import React ,{useState} from 'react';
+import React  from 'react';
 import './NavLinks.css';
 
 function NavLinks(props) {
-    const { heading, links , showHeading ,isCity} = props;
+    const { heading, links , showHeading } = props;
 
     
     return (
